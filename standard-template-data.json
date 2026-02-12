@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.1.0",
-    "generatedAt": "2026-02-12T07:40:50.739Z",
+    "version": "1.2.0",
+    "generatedAt": "2026-02-12T07:56:17.719Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
     "homepageId": "678aa675-541e-4e42-9c00-946d2cb13f61"
@@ -914,7 +914,7 @@
                 "description": " "
               },
               "closing": {
-                "title": "",
+                "title": " ",
                 "images": [
                   {
                     "id": "9c1d9d79-051a-40fd-8384-078c510ee49b",
@@ -923,7 +923,8 @@
                     "description": "",
                     "isSelected": true
                   }
-                ]
+                ],
+                "description": " "
               },
               "essence": {
                 "title": "Healing Forest",
@@ -950,7 +951,7 @@
                     "isSelected": true
                   }
                 ],
-                "description": "도심을 벗어나 숲이 감싸 안는 공간, 원주 힐링포레스트.\n맑은 공기와 초록의 풍경 속에서 온전한 쉼을 경험하세요.\n아침엔 새소리로 눈을 뜨고, 저녁엔 고요한 숲의 여운에 머무는 시간.\n자연과 함께하는 프라이빗한 휴식이 일상의 피로를 부드럽게 풀어드립니다.\n복잡함은 내려놓고, 나만의 힐링을 채워보세요."
+                "description": "도심을 벗어나 숲이 감싸 안는 공간, 원주 힐링포레스트.\n신축 건물로 완성된 깨끗하고 쾌적한 공간에서 한층 더 편안한 휴식을 누려보세요.\n\n맑은 공기와 초록의 풍경 속, 전 객실 대형 욕조가 완비되어\n숲을 바라보며 여유로운 스파 같은 시간을 즐길 수 있습니다.\n\n아침엔 새소리로 눈을 뜨고, 저녁엔 고요한 숲의 여운에 머무는 시간.\n자연과 프라이빗함, 그리고 품격 있는 시설까지 모두 갖춘 힐링 공간에서\n복잡한 일상은 내려놓고 온전한 쉼을 채워보세요."
               },
               "gallery": {
                 "title": " Preview",
@@ -1025,8 +1026,16 @@
           "sections": [
             {
               "hero": {
-                "title": "",
-                "images": []
+                "title": "오시는 길",
+                "images": [
+                  {
+                    "id": "87b03f05-1e0e-44c1-9bb8-0aaadbdb207a",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/678aa675-541e-4e42-9c00-946d2cb13f61/directions_hero/1770882971726-iszf89tku6.jpg",
+                    "sortOrder": 1,
+                    "description": "",
+                    "isSelected": true
+                  }
+                ]
               },
               "notice": {
                 "title": "",
@@ -1039,8 +1048,17 @@
           "sections": [
             {
               "hero": {
-                "title": "",
-                "images": []
+                "title": " ",
+                "images": [
+                  {
+                    "id": "43a9c8e7-93a6-47f8-a12e-bb2fa075425d",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/678aa675-541e-4e42-9c00-946d2cb13f61/main_hero/1770882971725-sb3r1psynjg.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true
+                  }
+                ],
+                "description": "도심을 벗어나 숲이 감싸 안는 공간, 원주 힐링포레스트.\n신축 건물로 완성된 깨끗하고 쾌적한 공간에서 한층 더 편안한 휴식을 누려보세요.\n\n맑은 공기와 초록의 풍경 속, 전 객실 대형 욕조가 완비되어\n숲을 바라보며 여유로운 스파 같은 시간을 즐길 수 있습니다.\n\n아침엔 새소리로 눈을 뜨고, 저녁엔 고요한 숲의 여운에 머무는 시간.\n자연과 프라이빗함, 그리고 품격 있는 시설까지 모두 갖춘 힐링 공간에서\n복잡한 일상은 내려놓고 온전한 쉼을 채워보세요."
               },
               "about": []
             }
