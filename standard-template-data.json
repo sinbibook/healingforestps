@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.18.0",
-    "generatedAt": "2026-02-20T00:46:10.397Z",
+    "version": "1.19.0",
+    "generatedAt": "2026-02-20T06:02:44.827Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
     "homepageId": "678aa675-541e-4e42-9c00-946d2cb13f61"
@@ -43,10 +43,10 @@
       "펜션"
     ],
     "businessInfo": {
-      "businessName": "힐링포레스트",
-      "businessNumber": "396-34-01486",
-      "representativeName": "임다현",
-      "businessAddress": "강원특별자치도 원주시 신림면 성남로 459-1, 2,3,4동",
+      "businessName": "힐링 포레스트",
+      "businessNumber": "493-47-01211",
+      "representativeName": "김국종",
+      "businessAddress": "강원특별자치도 원주시 신림면 성남로 459-1, 1동,5동",
       "businessPhone": "010-9441-9276",
       "businessEmail": "sharon2124@naver.com",
       "businessType": "individual",
@@ -814,8 +814,8 @@
     ],
     "seo": {
       "title": "원주 힐링포레스트",
-      "description": "원주 힐링포레스트, 숲속 여유와 온전한 쉼.",
-      "keywords": "원주힐링포레스트,원주숙소,원주펜션,강원도숙소,숲속숙소,감성숙소"
+      "description": "해발 460m 꿀잠이 보장되는 곳",
+      "keywords": "원주힐링포레스트,원주숙소,원주펜션,원주독채펜션,치악산펜션,치악산숙소,강원도숙소,숲속숙소,감성숙소"
     },
     "socialLinks": {},
     "customFields": {
