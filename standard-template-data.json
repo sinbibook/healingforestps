@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.15.0",
-    "generatedAt": "2026-02-19T09:23:06.440Z",
+    "version": "1.16.0",
+    "generatedAt": "2026-02-20T00:44:23.407Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
     "homepageId": "678aa675-541e-4e42-9c00-946d2cb13f61"
@@ -1154,7 +1154,10 @@
             "family": "Pretendard"
           }
         },
-        "color": null
+        "color": {
+          "primary": "#F5F0E8",
+          "secondary": "#3E5B45"
+        }
       },
       "property": {
         "images": [
