@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.23.0",
-    "generatedAt": "2026-02-24T08:28:27.282Z",
+    "version": "1.24.0",
+    "generatedAt": "2026-03-03T05:48:35.573Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
     "homepageId": "678aa675-541e-4e42-9c00-946d2cb13f61"
@@ -707,7 +707,7 @@
       "group": null,
       "size": 85.95,
       "baseOccupancy": 4,
-      "maxOccupancy": 6,
+      "maxOccupancy": 7,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 2,
@@ -1138,7 +1138,29 @@
         }
       },
       "popup": {
-        "popups": []
+        "popups": [
+          {
+            "id": "fd429cbb-0d5d-4673-b622-cfbe00fed0bd",
+            "link": "",
+            "title": "",
+            "images": [
+              {
+                "id": "f123831f-7e43-4427-8264-fa72845a178f",
+                "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/678aa675-541e-4e42-9c00-946d2cb13f61/popup/1772516910195-primatln72e.png",
+                "sortOrder": 0,
+                "description": "",
+                "isSelected": true,
+                "blockId": "fd429cbb-0d5d-4673-b622-cfbe00fed0bd"
+              }
+            ],
+            "slider": false,
+            "enabled": true,
+            "endDate": null,
+            "sortOrder": 0,
+            "startDate": null,
+            "description": ""
+          }
+        ]
       },
       "theme": {
         "font": {
