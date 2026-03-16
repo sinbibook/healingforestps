@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.28.0",
-    "generatedAt": "2026-03-10T08:54:54.305Z",
+    "version": "1.29.0",
+    "generatedAt": "2026-03-16T07:57:53.717Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
     "homepageId": "678aa675-541e-4e42-9c00-946d2cb13f61"
@@ -1230,31 +1230,6 @@
           ]
         }
       },
-      "popup": {
-        "popups": [
-          {
-            "id": "fd429cbb-0d5d-4673-b622-cfbe00fed0bd",
-            "link": "",
-            "title": "",
-            "images": [
-              {
-                "id": "f123831f-7e43-4427-8264-fa72845a178f",
-                "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/678aa675-541e-4e42-9c00-946d2cb13f61/popup/1772516910195-primatln72e.png",
-                "sortOrder": 0,
-                "description": "",
-                "isSelected": true,
-                "blockId": "fd429cbb-0d5d-4673-b622-cfbe00fed0bd"
-              }
-            ],
-            "slider": false,
-            "enabled": true,
-            "endDate": null,
-            "sortOrder": 0,
-            "startDate": null,
-            "description": ""
-          }
-        ]
-      },
       "theme": {
         "font": {
           "koSub": {
@@ -1280,6 +1255,31 @@
           "primary": "#F0F5F4",
           "secondary": "#3E5B45"
         }
+      },
+      "popup": {
+        "popups": [
+          {
+            "id": "fd429cbb-0d5d-4673-b622-cfbe00fed0bd",
+            "link": "",
+            "title": "",
+            "images": [
+              {
+                "id": "f123831f-7e43-4427-8264-fa72845a178f",
+                "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/678aa675-541e-4e42-9c00-946d2cb13f61/popup/1772516910195-primatln72e.png",
+                "sortOrder": 0,
+                "description": "",
+                "isSelected": true,
+                "blockId": "fd429cbb-0d5d-4673-b622-cfbe00fed0bd"
+              }
+            ],
+            "slider": false,
+            "enabled": true,
+            "endDate": null,
+            "sortOrder": 0,
+            "startDate": null,
+            "description": ""
+          }
+        ]
       },
       "property": {
         "images": [
@@ -2785,7 +2785,6 @@
           ]
         }
       ]
-    },
-    "id": "678aa675-541e-4e42-9c00-946d2cb13f61"
+    }
   }
 }
