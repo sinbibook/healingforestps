@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.38.0",
-    "generatedAt": "2026-04-02T05:02:52.561Z",
+    "version": "1.39.0",
+    "generatedAt": "2026-04-22T02:54:38.944Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
     "homepageId": "678aa675-541e-4e42-9c00-946d2cb13f61"
@@ -73,7 +73,7 @@
         "id": "046805fc-1f3c-4438-b131-5713f7ea49f9",
         "name": "야외 수영장",
         "description": "수영장 크기는 4M*7M 깊이 1M의 야외수영장을 운영하며\n정화시설을 설치하여 수질관리에 최선을 다하고 있습니다.",
-        "usageGuide": "[야외 수영장]\n- 운영 계절: 하절기\n- 운영 기간: 별도 공지\n- 이용 요금: 무료\n- 이용 복장: 수영복, 수영모\n- 수영장 크기: 4m x 7m x 1m\n※ 현장 상황에 따라 이용이 불가할 수 있음\n\n[수영장 이용 안전수칙]\n- 수영장 이용시간: 체크인(15:00)시부터~ 일몰시까지\n- 입수 전 준비운동을 꼭 합니다.\n- 수영복과 수영모를 착용합니다.(미착용시 입수금지)\n- 다이빙 절대금지 입니다.(수위가 낮아 다칩니다)\n- 초등생 이하는 성인 동반 하에만 수영 가능합니다.\n- 음주 후 수영장 구역 내 이용 및 출입 금지 입니다.\n- 수영장 주변과 수영장 내가 미끄러우므로 주의해주시기 바랍니다.\n- 수영장 주위로 뛰기 금지(미끄러워 다칩니다)\n- 수영장 주위에 쓰레기 투척 금지 합니다.\n- 수영장 내로 유리병 유리컵, 유리 제품 절대 반입 금지 입니다.\n- 위 안전수칙을 철저히 준수하시어 즐거운 물놀이\n- 공간을 유지하여 주시길 당부드립니다.",
+        "usageGuide": "[야외 수영장]\n- 운영 계절: 하절기\n- 운영 기간: 26년 6월 1일 ~ 10월 31일\n※ 운영기간은 상황에 따라 변동될 수 있습니다. \n- 이용 요금: 무료\n- 이용 복장: 수영복, 수영모\n- 수영장 크기: 4m x 7m x 1m\n※ 현장 상황에 따라 이용이 불가할 수 있음\n\n[수영장 이용 안전수칙]\n- 수영장 이용시간: 체크인(15:00)시부터~ 일몰시까지\n- 입수 전 준비운동을 꼭 합니다.\n- 수영복과 수영모를 착용합니다.(미착용시 입수금지)\n- 다이빙 절대금지 입니다.(수위가 낮아 다칩니다)\n- 초등생 이하는 성인 동반 하에만 수영 가능합니다.\n- 음주 후 수영장 구역 내 이용 및 출입 금지 입니다.\n- 수영장 주변과 수영장 내가 미끄러우므로 주의해주시기 바랍니다.\n- 수영장 주위로 뛰기 금지(미끄러워 다칩니다)\n- 수영장 주위에 쓰레기 투척 금지 합니다.\n- 수영장 내로 유리병 유리컵, 유리 제품 절대 반입 금지 입니다.\n- 위 안전수칙을 철저히 준수하시어 즐거운 물놀이\n- 공간을 유지하여 주시길 당부드립니다.",
         "displayOrder": 0,
         "images": [
           {
@@ -518,18 +518,35 @@
   "rooms": [
     {
       "id": "766f5a7d-c709-4c0a-ae12-4d061ab09f45",
+      "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
+      "propertyName": "원주 힐링포레스트",
       "name": "A동",
+      "nameEn": "Room A",
       "description": "원룸형 : 침대룸A(퀸1)+화장실1",
       "roomInfo": "※ 객실 내 절대 금연\n[인원추가비(1박기준/현장결제)]\n- 인원추가: 24개월 이상 1인 30,000원 (1박기준/현장결제)\n※ 24개월 미만 유아라도 침구 추가 시 인원추가 요금 발생 \n※ 영유아 인원수 포함 / 최대인원 초과불가",
       "usageGuide": "",
       "group": null,
       "size": 42.98,
+      "sizePyeong": 13,
       "baseOccupancy": 2,
       "maxOccupancy": 3,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 0,
+        "ondol": 0,
+        "kitchen": 1
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "Y",
+        "poolState": "Y"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -562,6 +579,7 @@
         "원룸형"
       ],
       "status": "active",
+      "bankAccountId": "6a6d818a-fbf0-484e-b89f-21b02420b91d",
       "images": [
         {
           "thumbnail": [],
@@ -569,22 +587,43 @@
           "exterior": []
         }
       ],
-      "displayOrder": 1
+      "displayOrder": 1,
+      "createdAt": "2026-02-09T07:55:40.955Z",
+      "updatedAt": "2026-03-10T01:28:01.967Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b25a183c-5cce-46ac-af15-33a2090f8b49"
     },
     {
       "id": "e4dd6aff-3b3e-4b7b-93f9-74716274624f",
+      "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
+      "propertyName": "원주 힐링포레스트",
       "name": "B동",
+      "nameEn": "Room B",
       "description": "원룸형 : 침대룸A(싱글1,퀸1)+화장실1",
       "roomInfo": "※ 객실 내 절대 금연\n[인원추가비(1박기준/현장결제)]\n- 인원추가: 24개월 이상 1인 30,000원 (1박기준/현장결제)\n※ 24개월 미만 유아라도 침구 추가 시 인원추가 요금 발생 \n※ 영유아 인원수 포함 / 최대인원 초과불가",
       "usageGuide": "",
       "group": null,
       "size": 52.89,
+      "sizePyeong": 16,
       "baseOccupancy": 2,
       "maxOccupancy": 4,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 0,
+        "ondol": 0,
+        "kitchen": 1
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "Y",
+        "poolState": "Y"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -617,6 +656,7 @@
         "원룸형"
       ],
       "status": "active",
+      "bankAccountId": "6a6d818a-fbf0-484e-b89f-21b02420b91d",
       "images": [
         {
           "thumbnail": [],
@@ -624,22 +664,43 @@
           "exterior": []
         }
       ],
-      "displayOrder": 2
+      "displayOrder": 2,
+      "createdAt": "2026-02-09T07:55:40.982Z",
+      "updatedAt": "2026-03-10T01:28:09.651Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b25a183c-5cce-46ac-af15-33a2090f8b49"
     },
     {
       "id": "e8ede90d-78a1-4437-bfb5-d2d062ce1622",
+      "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
+      "propertyName": "원주 힐링포레스트",
       "name": "C동",
+      "nameEn": "Room C",
       "description": "원룸형 : 침대룸A(퀸1)+화장실1",
       "roomInfo": "※ 객실 내 절대 금연\n[인원추가비(1박기준/현장결제)]\n- 인원추가: 24개월 이상 1인 30,000원 (1박기준/현장결제)\n※ 24개월 미만 유아라도 침구 추가 시 인원추가 요금 발생 \n※ 영유아 인원수 포함 / 최대인원 초과불가",
       "usageGuide": "",
       "group": null,
       "size": 39.67,
+      "sizePyeong": 12,
       "baseOccupancy": 2,
       "maxOccupancy": 2,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 0,
+        "ondol": 0,
+        "kitchen": 1
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "Y",
+        "poolState": "Y"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -672,6 +733,7 @@
         "원룸형"
       ],
       "status": "active",
+      "bankAccountId": "6a6d818a-fbf0-484e-b89f-21b02420b91d",
       "images": [
         {
           "thumbnail": [],
@@ -679,22 +741,43 @@
           "exterior": []
         }
       ],
-      "displayOrder": 3
+      "displayOrder": 3,
+      "createdAt": "2026-02-09T07:55:40.965Z",
+      "updatedAt": "2026-03-10T01:28:27.015Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b25a183c-5cce-46ac-af15-33a2090f8b49"
     },
     {
       "id": "52a94d2d-2bd6-40db-8a5f-c0921a706a89",
+      "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
+      "propertyName": "원주 힐링포레스트",
       "name": "D동",
+      "nameEn": "Room D",
       "description": "원룸형 : 침대룸A(퀸2)+화장실1",
       "roomInfo": "※ 객실 내 절대 금연\n[인원추가비(1박기준/현장결제)]\n- 인원추가: 24개월 이상 1인 30,000원 (1박기준/현장결제)\n※ 24개월 미만 유아라도 침구 추가 시 인원추가 요금 발생 \n※ 영유아 인원수 포함 / 최대인원 초과불가",
       "usageGuide": "",
       "group": null,
       "size": 52.89,
+      "sizePyeong": 16,
       "baseOccupancy": 2,
       "maxOccupancy": 5,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 0,
+        "ondol": 0,
+        "kitchen": 1
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "Y",
+        "poolState": "Y"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -727,6 +810,7 @@
         "원룸형"
       ],
       "status": "active",
+      "bankAccountId": "1c4f2c9a-309d-4656-95bf-7b935dd1a8d1",
       "images": [
         {
           "thumbnail": [],
@@ -734,22 +818,43 @@
           "exterior": []
         }
       ],
-      "displayOrder": 4
+      "displayOrder": 4,
+      "createdAt": "2026-02-09T07:55:40.958Z",
+      "updatedAt": "2026-03-10T01:28:41.354Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b25a183c-5cce-46ac-af15-33a2090f8b49"
     },
     {
       "id": "3976f363-cf45-4f3b-9d86-22bfd4f94ec3",
+      "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
+      "propertyName": "원주 힐링포레스트",
       "name": "E동",
+      "nameEn": "Room E",
       "description": "원룸형 : 침대룸A(퀸2)+화장실1",
       "roomInfo": "※ 객실 내 절대 금연\n[인원추가비(1박기준/현장결제)]\n- 인원추가: 24개월 이상 1인 30,000원 (1박기준/현장결제)\n※ 24개월 미만 유아라도 침구 추가 시 인원추가 요금 발생 \n※ 영유아 인원수 포함 / 최대인원 초과불가",
       "usageGuide": "",
       "group": null,
       "size": 52.89,
+      "sizePyeong": 16,
       "baseOccupancy": 2,
       "maxOccupancy": 5,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 0,
+        "ondol": 0,
+        "kitchen": 1
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "Y",
+        "poolState": "Y"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -782,6 +887,7 @@
         "원룸형"
       ],
       "status": "active",
+      "bankAccountId": "1c4f2c9a-309d-4656-95bf-7b935dd1a8d1",
       "images": [
         {
           "thumbnail": [],
@@ -789,22 +895,43 @@
           "exterior": []
         }
       ],
-      "displayOrder": 5
+      "displayOrder": 5,
+      "createdAt": "2026-02-09T07:55:40.974Z",
+      "updatedAt": "2026-03-10T01:28:48.798Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b25a183c-5cce-46ac-af15-33a2090f8b49"
     },
     {
       "id": "ddb5dca3-9c89-4e1d-9bde-8c48bf3a7a1a",
+      "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
+      "propertyName": "원주 힐링포레스트",
       "name": "F동",
+      "nameEn": "Room F",
       "description": "분리형: 침대룸A(퀸2)+온돌룸A(여분 침구류1)+화장실2+거실1",
       "roomInfo": "※ 객실 내 절대 금연\n[인원추가비(1박기준/현장결제)]\n- 인원추가: 24개월 이상 1인 30,000원 (1박기준/현장결제)\n※ 24개월 미만 유아라도 침구 추가 시 인원추가 요금 발생 \n※ 영유아 인원수 포함 / 최대인원 초과불가",
       "usageGuide": "",
       "group": null,
       "size": 85.95,
+      "sizePyeong": 26,
       "baseOccupancy": 4,
       "maxOccupancy": 7,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 2,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 1,
+        "kitchen": 1
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "Y",
+        "poolState": "Y"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드",
@@ -839,6 +966,7 @@
         "침실분리형"
       ],
       "status": "active",
+      "bankAccountId": "1c4f2c9a-309d-4656-95bf-7b935dd1a8d1",
       "images": [
         {
           "thumbnail": [],
@@ -846,22 +974,43 @@
           "exterior": []
         }
       ],
-      "displayOrder": 6
+      "displayOrder": 6,
+      "createdAt": "2026-02-09T07:55:40.901Z",
+      "updatedAt": "2026-03-10T01:28:57.229Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b25a183c-5cce-46ac-af15-33a2090f8b49"
     },
     {
       "id": "ea795645-f147-4add-9459-5ed213e85235",
+      "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
+      "propertyName": "원주 힐링포레스트",
       "name": "S동 (스위트룸)",
+      "nameEn": "Room S (Suite)",
       "description": "분리형: 침대룸A(퀸1)+침대룸B(퀸1)+화장실2+거실1",
       "roomInfo": "※ 객실 내 절대 금연\n[인원추가비(1박기준/현장결제)]\n- 인원추가: 24개월 이상 1인 30,000원 (1박기준/현장결제)\n※ 24개월 미만 유아라도 침구 추가 시 인원추가 요금 발생 \n※ 영유아 인원수 포함 / 최대인원 초과불가",
       "usageGuide": "",
       "group": null,
       "size": 165.29,
+      "sizePyeong": 50,
       "baseOccupancy": 6,
       "maxOccupancy": 10,
       "totalRoomCount": {
         "bedroom": 2,
         "bathroom": 2,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 1
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "Y",
+        "poolState": "Y"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -894,6 +1043,7 @@
         "침실분리형"
       ],
       "status": "active",
+      "bankAccountId": "6a6d818a-fbf0-484e-b89f-21b02420b91d",
       "images": [
         {
           "thumbnail": [],
@@ -901,7 +1051,11 @@
           "exterior": []
         }
       ],
-      "displayOrder": 7
+      "displayOrder": 7,
+      "createdAt": "2026-02-09T07:55:40.999Z",
+      "updatedAt": "2026-02-24T08:27:51.663Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2"
     }
   ],
   "homepage": {
@@ -990,7 +1144,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": " "
+                "description": " ",
+                "mediaType": "image",
+                "videos": []
               },
               "closing": {
                 "title": " ",
@@ -1003,7 +1159,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": " "
+                "description": " ",
+                "mediaType": "image",
+                "videos": []
               },
               "essence": {
                 "title": "Healing Forest",
@@ -1030,7 +1188,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": "도심을 벗어나 숲이 감싸 안는 공간,\n치악산 국립공원 내에 위치한 천혜의 자연, \n신들의 정원 힐링포레스트\n해발 460m에서의 꿀잠이 보장되는 곳\n신축 건물의 쾌적한 공간에서 편안한 휴식을 누려보세요.\n\n맑은 공기와 초록 풍경 속, 전 객실 대형 욕조가 완비되어\n입욕제가 제공되어 숲을 바라보며 여유를 즐길 수 있습니다."
+                "description": "도심을 벗어나 숲이 감싸 안는 공간,\n치악산 국립공원 내에 위치한 천혜의 자연, \n신들의 정원 힐링포레스트\n해발 460m에서의 꿀잠이 보장되는 곳\n신축 건물의 쾌적한 공간에서 편안한 휴식을 누려보세요.\n\n맑은 공기와 초록 풍경 속, 전 객실 대형 욕조가 완비되어\n입욕제가 제공되어 숲을 바라보며 여유를 즐길 수 있습니다.",
+                "mediaType": "image",
+                "videos": []
               },
               "gallery": {
                 "title": " Preview",
@@ -1106,11 +1266,15 @@
                     "isSelected": true
                   }
                 ],
-                "description": " "
+                "description": " ",
+                "mediaType": "image",
+                "videos": []
               },
               "signature": {
                 "title": "",
-                "images": []
+                "images": [],
+                "mediaType": "image",
+                "videos": []
               }
             }
           ]
@@ -1424,7 +1588,9 @@
             "isSelected": true,
             "category": "property_exterior"
           }
-        ]
+        ],
+        "name": "원주 힐링포레스트",
+        "nameEn": "Wonju Healing Forest"
       },
       "roomtypes": [
         {
