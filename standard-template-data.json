@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.43.0",
-    "generatedAt": "2026-05-26T01:25:27.353967778Z",
+    "version": "1.44.0",
+    "generatedAt": "2026-06-02T03:29:26.294841614Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "0e5c3916-7723-4086-b7df-56f0295832af",
     "homepageId": "678aa675-541e-4e42-9c00-946d2cb13f61"
@@ -1382,6 +1382,12 @@
               }
             }
           ]
+        },
+        "layoutMap": {
+          "sections": [ ]
+        },
+        "nearbyAttractions": {
+          "sections": [ ]
         }
       },
       "theme": {
@@ -1475,6 +1481,27 @@
             "enabled": true,
             "endDate": null,
             "sortOrder": 1,
+            "startDate": null,
+            "description": ""
+          },
+          {
+            "id": "55079c91-72a7-49d5-a3ab-682a438cdc9d",
+            "link": "",
+            "title": "",
+            "images": [
+              {
+                "id": "5fe3f4e8-9226-4702-96a3-6b80658ac543",
+                "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/678aa675-541e-4e42-9c00-946d2cb13f61/popup/1780370960900-0tc0mh4k37.jpg",
+                "sortOrder": 5,
+                "description": "",
+                "isSelected": true,
+                "blockId": "55079c91-72a7-49d5-a3ab-682a438cdc9d"
+              }
+            ],
+            "slider": false,
+            "enabled": true,
+            "endDate": null,
+            "sortOrder": 2,
             "startDate": null,
             "description": ""
           }
